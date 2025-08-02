@@ -430,3 +430,26 @@ body {
         margin: 0;
     }
 }
+.education {
+    padding: 4rem 5rem;
+    background-image: linear-gradient(90deg, #e3f9f6 0%, #f2fcfb 100%);
+}
+.education-heading {
+    margin-bottom: 2rem;
+}
+.education-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+.education-item {
+    background: #fff;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 8px rgba(53, 169, 156, 0.10);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
